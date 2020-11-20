@@ -5,7 +5,8 @@ var dragging = false
 signal dragsignal;
 
 func _ready():
-	connect("dragsignal",self,"_set_drag_pc")
+	# connect("dragsignal",self,"_set_drag_pc")
+	pass
 	
 	
 func _process(delta):
@@ -22,9 +23,9 @@ func _set_drag_pc():
 func _on_KinematicBody2D_input_event(viewport, event, shape_idx):
 	if event is InputEventMouseButton:
 		if event.button_index == BUTTON_LEFT and event.pressed:
-			emit_signal("dragsignal")
+			_set_drag_pc()
 		elif event.button_index == BUTTON_LEFT and !event.pressed:
-			emit_signal("dragsignal")
+			_set_drag_pc()
 	elif event is InputEventScreenTouch:
 		if event.pressed and event.get_index() == 0:
 			self.position = event.get_position()
