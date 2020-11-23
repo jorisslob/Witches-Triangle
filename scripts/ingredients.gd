@@ -2,7 +2,7 @@ extends Node
 
 var _path = "res://ingredients.json"
 
-var ingredients: Dictionary = {}
+var ingredients = []
 
 func _ready():
 	_load_ingredients()
@@ -13,14 +13,12 @@ func _load_ingredients():
 	var json = JSON.parse(file.get_as_text())
 	file.close()
 	
-	for ingredient in json.result["ingredients"]:
-		ingredients[ingredient.name] = ingredient
-		
+	ingredients = json.result["ingredients"]
+
 func get_all_from_category(category):
-	var resultDict: Dictionary = {}
-	for key in ingredients.keys():
-		var ingredient = ingredients[key]
+	var resultArray = []
+	for ingredient in ingredients:
 		if ingredient["categories"].has(category):
-			resultDict[key] = ingredient
+			resultArray.append(ingredient)
 	
-	return resultDict
+	return resultArray
