@@ -1,0 +1,95 @@
+{
+    "ingredients": [{
+            "name": "Firefly",
+            "categories": ["Air", "Fire", "Animal", "Crawly", "Dark"],
+            "img": ""
+        }, {
+            "name": "Feather",
+            "categories": ["Air", "Animal"],
+            "img": ""
+        }, {
+            "name": "Bat",
+            "categories": ["Air", "Animal", "Dark"],
+            "img": ""
+        }, {
+            "name": "Butterfly",
+            "categories": ["Air", "Animal"],
+            "img": ""
+        }, {
+            "name": "Coal",
+            "categories": ["Fire", "Mineral"],
+            "img": ""
+        }, {
+            "name": "Salamander",
+            "categories": ["Fire", "Water", "Animal"],
+            "img": ""
+        }, {
+            "name": "Fireant",
+            "categories": ["Fire", "Earth", "Animal", "Crawly"],
+            "img": ""
+        }, {
+            "name": "Candle wax",
+            "categories": ["Fire", "Dark"],
+            "img": ""
+        }, {
+            "name": "Chili",
+            "categories": ["Fire", "Plant"],
+            "img": ""
+        }, {
+            "name": "Frog",
+            "categories": ["Water", "Animal"],
+            "img": ""
+        }, {
+            "name": "Goldfish",
+            "categories": ["Water", "Animal"],
+            "img": ""
+        }, {
+            "name": "Seaweed",
+            "categories": ["Water", "Plant"],
+            "img": ""
+        }, {
+            "name": "Crab",
+            "categories": ["Water", "Animal"],
+            "img": ""
+        }, {
+            "name": "Snake",
+            "categories": ["Earth", "Animal", "Crawly", "Poison"],
+            "img": ""
+        }, {
+            "name": "Mushroom",
+            "categories": ["Earth", "Plant"],
+            "img": ""
+        }, {
+            "name": "Gypsum",
+            "categories": ["Earth", "Mineral"],
+            "img": ""
+        }, {
+            "name": "Spider",
+            "categories": ["Earth", "Animal", "Crawly", "Poison"],
+            "img": ""
+        }, {
+            "name": "Mole",
+            "categories": ["Earth", "Animal", "Dark"],
+            "img": ""
+        }, {
+            "name": "Amethyst",
+            "categories": ["Magick", "Mineral"],
+            "img": ""
+        }, {
+            "name": "Chocolate",
+            "categories": ["Magick", "Plant", "Dark"],
+            "img": ""
+        }, {
+            "name": "Mandrake",
+            "categories": ["Magick", "Plant", "Earth"],
+            "img": ""
+        }, {
+            "name": "Unicorn horn",
+            "categories": ["Magick", "Animal"],
+            "img": ""
+        }, {
+            "name": "Garlic",
+            "categories": ["Magick", "Plant", "Earth", "Fire"],
+            "img": ""
+        }, ]
+}
