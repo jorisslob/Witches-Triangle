@@ -1,0 +1,92 @@
+{
+    "moonphases": [
+        {
+            "name": "New Moon",
+            "effects": {
+                "Animal": 0,
+                "Plant": -1,
+                "Crawly": 3,
+                "Dark": 3,
+                "Poison": 2,
+                "Mineral": 2
+            }
+        },
+		{
+            "name": "Waxing Crescent",
+            "effects": {
+                "Animal": 1,
+                "Plant": 0,
+                "Crawly": 2,
+                "Dark": 2,
+                "Poison": 1,
+                "Mineral": 2
+            }
+        },
+		{
+            "name": "First Quarter",
+            "effects": {
+                "Animal": 2,
+                "Plant": 1,
+                "Crawly": 1,
+                "Dark": 1,
+                "Poison": 1,
+                "Mineral": 1
+            }
+        },
+		{
+            "name": "Waxing Gibbous",
+            "effects": {
+                "Animal": 2,
+                "Plant": 2,
+                "Crawly": 0,
+                "Dark": 0,
+                "Poison": 0,
+                "Mineral": 1
+            }
+        },
+		{
+            "name": "Full Moon",
+            "effects": {
+                "Animal": 3,
+                "Plant": 3,
+                "Crawly": 0,
+                "Dark": -1,
+                "Poison": 0,
+                "Mineral": 0
+            }
+        },
+		{
+            "name": "Waning Gibbous",
+            "effects": {
+                "Animal": 2,
+                "Plant": 2,
+                "Crawly": 0,
+                "Dark": 0,
+                "Poison": 0,
+                "Mineral": 1
+            }
+        },
+		{
+            "name": "Third Quarter",
+            "effects": {
+                "Animal": 2,
+                "Plant": 1,
+                "Crawly": 1,
+                "Dark": 1,
+                "Poison": 1,
+                "Mineral": 1
+            }
+        },
+		{
+            "name": "Waning Crescent",
+            "effects": {
+                "Animal": 1,
+                "Plant": 0,
+                "Crawly": 2,
+                "Dark": 2,
+                "Poison": 1,
+                "Mineral": 2
+            }
+        }
+    ]
+}

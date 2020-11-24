@@ -1,6 +1,6 @@
 extends Node
 
-var _path = "res://ingredients.json"
+const _PATH = "res://ingredients.json"
 
 var ingredients = []
 
@@ -9,7 +9,7 @@ func _ready():
 		
 func _load_ingredients():
 	var file = File.new()
-	file.open(_path, File.READ)
+	file.open(_PATH, File.READ)
 	var json = JSON.parse(file.get_as_text())
 	file.close()
 	
@@ -20,5 +20,5 @@ func get_all_from_category(category):
 	for ingredient in ingredients:
 		if ingredient["categories"].has(category):
 			resultArray.append(ingredient)
-	
+
 	return resultArray
